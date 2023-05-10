@@ -1,7 +1,6 @@
 import '@/styles/base.css';
 import type { AppProps } from 'next/app';
 import { Inter } from 'next/font/google';
-import GithubCorner from 'react-github-corner';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -14,7 +13,9 @@ function MyApp({ Component, pageProps }: AppProps) {
       <main className={inter.variable}>
         <Component {...pageProps} />
       </main>
-      {/* @ts-ignore */}
+     
+      {/*
+      // Not working
       <GithubCorner
         href="https://github.com/BankkRoll/gpt4-pdf-chatbot-langchain-upgradeded"
         bannerColor="#151513"
@@ -23,6 +24,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         direction="right"
         ariaLabel="View source on GitHub"
       />
+      */}
+
     </>
   );
 }
