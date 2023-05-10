@@ -1,3 +1,15 @@
+- [x] Upgraded ui
+- [x] All errors comes directly via bot message
+- [x] PDF parse saves sections and lines info is found from for source to be found again
+- [ ] some other things coming soon. building out my skill with langchain. super clean ui here
+- [ ] coming soon..
+- [ ] coming soon...
+
+![screencapture-localhost-3000-2023-05-09-18_53_41](https://github.com/BankkRoll/gpt4-pdf-chatbot-langchain/assets/106103625/01070b7f-1739-4b61-b618-a410511514ab)
+
+
+
+
 # GPT-4 & LangChain - Create a ChatGPT Chatbot for Your PDF Files
 
 Use the new GPT-4 api to build a chatGPT chatbot for multiple Large PDF files.
